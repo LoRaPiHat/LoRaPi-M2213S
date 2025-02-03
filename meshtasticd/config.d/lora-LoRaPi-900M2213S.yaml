@@ -1,0 +1,11 @@
+Lora:
+## Raspberry Pi 4 w/
+## Ebyte E80-900M2213S
+  Module: lr1121
+  CS: 8 # pin 24
+  Reset: 23 # pin 16
+  IRQ: 24 # pin 18
+  Busy: 25 # pin 22
+  DIO3_TCXO_VOLTAGE: true
+
+  spidev: spidev0.0 # MOSI=10 (pin 19), MISO=9 (pin 21), CLK=11 (pin 23), CS=8 (pin 24)
